@@ -1,0 +1,15 @@
+.userdatacard {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userdatabox {
+    margin: 0.5rem;
+    background-color: var(--card-bg-color);
+    color: var(--btn-text-color);
+    width: 35%;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+}

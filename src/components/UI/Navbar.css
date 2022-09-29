@@ -1,0 +1,12 @@
+.general_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: var(--main-heading);
+    padding: 0.4rem 1.5rem 1rem 1.5rem;
+    cursor: pointer;
+}
+
+.general_navbar img {
+    height: 60px;
+}

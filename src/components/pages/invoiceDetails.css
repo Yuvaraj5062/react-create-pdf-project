@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 1rem auto;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.invoice_btn_grp {
+    text-align: center;
+}
+
+.invoice_btn_1, .invoice_btn_2 {
+    padding: 5px;
+    background-color: var(--btn-bg-color);
+    border: none;
+    color: var(--btn-text-color);
+    letter-spacing: 0.05rem;
+    border-radius: 0.2rem;
+}
+
+.invoice_btn_2 {
+    margin-left: 0.4rem;
+}
+
+.invoice_btn_1:hover, .invoice_btn_2:hover {
+    opacity: 0.8;
+}
+

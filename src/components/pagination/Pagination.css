@@ -1,0 +1,36 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+.pagination_box {
+    margin-left: 0.4rem;
+    background-color: #dddddd;
+    padding: 0.45rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.pagination_box :hover {
+    opacity: 0.8;
+}
+
+.prev_btn, .next_btn {
+    background-color: #dddddd;
+    padding: 0.45rem 0.8rem;
+    border-radius: 20%;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.next_btn {
+    margin-left: 0.4rem;
+}
+
+.prev_btn :hover, .next_btn :hover {
+    opacity: 0.8;
+}
