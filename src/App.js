@@ -4,16 +4,19 @@ import InvoiceForm from "./components/pages/InvoiceForm";
 import InvoiceDetail from "./components/pages/InvoiceDetails";
 import UserInfo from "./components/pagination/UserInfo";
 import "./App.css";
+import PdfGenrate from "./components/pdf/PdfGenrate";
 
 function App() {
   return (
     <>
-      <Navbar/>
+    {/* pdf using jspdf lib */}
+      {/* <Navbar/>
       <Routes>
         <Route path="/" element={<InvoiceForm />}></Route>
         <Route path="/invoicedetail" element={<InvoiceDetail />}></Route>
         <Route path="/userinfo" element={<UserInfo/>}></Route>
-      </Routes>
+      </Routes> */}
+      <PdfGenrate />
     </>
   );
 }
